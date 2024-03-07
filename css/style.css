@@ -1,0 +1,114 @@
+@font-face {
+    font-family: mario;
+    src: url(../font/SuperMario256.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/fondo2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: brown;
+    font-family: mario;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.caja{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border-style: double;
+    border-width: 5px;
+    border-color: red;
+    margin: auto;
+    border-radius: 0px 20px;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.caja2{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(255, 149, 0);
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    font-family: mario;
+    font-size: 12px;
+    padding-top: 30px;
+    background-image: url(../img/tachuela.png), url(../img/tachuela.png), url(../img/tachuela.png), url(../img/tachuela.png);
+    background-position: top left, top right, bottom right, bottom left;
+    background-repeat: no-repeat;
+}
+.mario{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+.marioimg{
+    width: 200px;
+    height: 200px;
+}
+.marioimg:hover{
+    filter: drop-shadow(0px 10px 3px black);
+}
+.logo{
+    position: absolute;
+    bottom: -15%;
+    left: 35%;
+}
+.logoimg{
+    width: 250px;
+    height: 300px;
+}
+.estrella{
+    position: absolute;
+    bottom: -20%;
+    left: -20%;
+}
+.estrellaimg{
+    width: 300px;
+    height: 300px;
+}
+.estrellaimg:hover{
+    filter: drop-shadow(0px 10px 3px black);
+}
+.yosi{
+    position: absolute;
+    bottom: 8%;
+    right: 2%;
+}
+.yosiimg{
+    width: 300px;
+    height: auto;
+}
+.creado{
+    position: relative;
+    width: 200px;
+    height: 90px;
+    color: brown;
+    margin-left: 70%;
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    text-align: center;
+    font-family: mario;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.creado:hover{
+    background-color: brown;
+    color: white;
+}
